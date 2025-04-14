@@ -9,7 +9,7 @@ Output: "Mr%20John%20SMith"
 */
 
 public class URLify {
-    
+
     public static void replaceSpaces (char[] str, int realLength) {
         if (str.length == 0) {
             return;
@@ -44,3 +44,5 @@ public class URLify {
         replaceSpaces (input, 11);
     } 
 }
+// Time Complexity: O(n), where n is the length of the string.
+// Space Complexity: O(1), no additional data space required, only a few variables.
